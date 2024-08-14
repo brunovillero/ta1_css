@@ -1,0 +1,47 @@
+div img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 769px) and (max-width: 1440px) {
+    .background {
+        background-color: red;
+    }
+
+    p {
+        font-size: 24px;
+    }
+
+    div img {
+        width: 50%;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .background {
+        background-color: green;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    div img {
+        width: 70%;
+    }
+}
+
+@media (max-width: 425px) {
+    .background {
+        background-color: blue;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    div img {
+        width: 100%;
+    }
+}
